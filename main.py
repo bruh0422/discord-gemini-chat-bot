@@ -138,7 +138,7 @@ if mode == 'whitelist':
 
         await ctx.reply('頻道已成功關閉 AI 聊天。', mention_author=False)
 
-elif mode == "blacklist":
+elif mode == 'blacklist':
     @bot.command()
     @commands.guild_only()
     async def blockchannel(ctx: commands.Context, channel: discord.abc.GuildChannel):
